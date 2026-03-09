@@ -4,7 +4,7 @@ import powerlaw
 import matplotlib.pyplot as plt
 
 
-caminho = r'C:\Users\55859\Downloads\Trabalho Grafos V2 - Sem duplicatas\distribuicao_final_bruto.csv'
+caminho = r'distribuicao_final_bruto.csv'
 
 try:
     
