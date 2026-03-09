@@ -1,14 +1,13 @@
 import java.io.*;
 import java.util.*;
-import java.util.HashSet;
 
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        String inputFile = "C:\\Users\\55859\\Downloads\\Trabalho Grafos V2 - Sem duplicatas\\Conversor\\CA-AstroPh.txt";
-        String outputFile = "C:\\Users\\55859\\Downloads\\Trabalho Grafos V2 - Sem duplicatas\\Conversor\\astro_formatado.txt";
+        String inputFile = "Conversor\\CA-AstroPh.txt";
+        String outputFile = "Conversor\\astro_formatado.txt";
 
         BufferedReader br = new BufferedReader(new FileReader(inputFile));
 

@@ -5,7 +5,7 @@ public class EstatisticasGrafo {
 
     public static void main(String[] args) {
 
-        In in = new In("C:\\Users\\55859\\Downloads\\Trabalho Grafos V2 - Sem duplicatas\\Conversor\\astro_formatado.txt");
+        In in = new In("Conversor\\astro_formatado.txt");
         Graph g = new Graph(in);
         int V = g.V();
         int E = g.E();

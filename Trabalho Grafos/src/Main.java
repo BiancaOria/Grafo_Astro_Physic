@@ -1,11 +1,10 @@
 import edu.princeton.cs.algs4.Graph;
 import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdOut;
 
 public class Main {
     public static void main(String[] args) {
 
-        In in = new In("C:\\Users\\55859\\Downloads\\Trabalho Grafos V2 - Sem duplicatas\\Conversor\\astro_formatado.txt");
+        In in = new In("Conversor\\astro_formatado.txt");
         System.out.println(in);
         Graph g = new Graph(in);
 

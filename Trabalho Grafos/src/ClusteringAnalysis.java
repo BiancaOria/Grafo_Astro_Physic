@@ -1,3 +1,4 @@
+
 import edu.princeton.cs.algs4.*;
 import java.util.HashSet;
 
@@ -17,8 +18,9 @@ public class ClusteringAnalysis {
     private static double localClustering(Graph G, int v) {
         int k = G.degree(v);
 
-
-        if (k < 2) return 0.0;
+        if (k < 2) {
+            return 0.0;
+        }
 
         HashSet<Integer> vizinhos = new HashSet<>();
         for (int w : G.adj(v)) {
